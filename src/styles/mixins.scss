@@ -1,0 +1,10 @@
+@import "./variables";
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin text-shadow {
+  text-shadow: $black 0.3em 0.3em 0.8em;
+}

@@ -1,13 +1,12 @@
 import * as React from 'react';
-import './App.css';
+import Header from './components/Header';
+import './App.scss';
 
 class App extends React.Component<{}> {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Mealplanner</h1>
-        </header>
+        <Header />
       </div>
     );
   }
