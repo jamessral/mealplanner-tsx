@@ -1,5 +1,8 @@
 {
-    "extends": ["tslint-react"],
+    "extends": [
+        "tslint-react",
+        "teslint-config-prettier"
+    ],
     "rules": {
         "align": [
             true,
